@@ -8,3 +8,12 @@ python inuse.py
 ```
 
 Bu depo çalışmanın ilk sürümüdür. Belgelenmiş, örnekli ve güncel sürüm: [Proaiml/DNN_GD](https://github.com/Proaiml/DNN_GD).
+
+## Test
+
+```bash
+pip install pytest
+python -m pytest tests -q
+```
+
+Duman testleri yalnızca CPU kullanır ve birkaç saniyede biter.
